@@ -1,5 +1,5 @@
 {
-  "name": "bit-clothes",
+  "name": "react-apollo-rhl-problem",
   "version": "0.0.1",
   "description": "BIT Clothes Website",
   "author": "Bojan Hribernik <bojan.hribernik@gmail.com> (http://climbuddy.com/)",
@@ -7,7 +7,7 @@
   "homepage": "http://climbuddy.com/",
   "repository": {
     "type": "git",
-    "url": "git@git.teon.si:bojan/bit-clothes.git"
+    "url": "https://github.com/HriBB/react-apollo-rhl-problem.git"
   },
   "scripts": {
     "storybook": "start-storybook -p 9001",
