@@ -1,0 +1,39 @@
+@import 'variables';
+
+.modal-close {
+  position: relative;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  overflow: hidden;
+  margin: 0 2px 0 0;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+  color: #fff;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  &::before, &::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 16px;
+    top: 50%;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: -1px;
+    background: #fff;
+  }
+
+  &::before {
+    transform: rotate(45deg);
+  }
+  &::after {
+    transform: rotate(-45deg);
+  }
+}

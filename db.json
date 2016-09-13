@@ -1,0 +1,17 @@
+{
+  "galleries": [
+    {
+      "id": "fb8fcf2e-c976-49ad-ab00-6c36320214cd",
+      "slug": "gallery-name",
+      "name": "Gallery Name",
+      "description": "Spring-Summer"
+    },
+    {
+      "id": "58219791-0c12-4761-9199-c6ee42926657",
+      "slug": "new-gallery",
+      "name": "New Gallery",
+      "description": "Gallery description"
+    }
+  ],
+  "gallery_images": []
+}

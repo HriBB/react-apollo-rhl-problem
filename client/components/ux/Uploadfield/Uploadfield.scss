@@ -1,0 +1,17 @@
+@import 'variables';
+
+.bit-uploadfield {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  transition: all 0.2s ease-in-out;
+  outline: none;
+
+  &:focus {
+    border: 1px solid #51cbee;
+    box-shadow: 0 0 5px #51cbee;
+  }
+}

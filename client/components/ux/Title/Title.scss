@@ -1,0 +1,60 @@
+@import 'variables';
+
+.bit-title {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  font-size: 26px;
+  line-height: 36px;
+  font-weight: 400;
+  letter-spacing: 1px;
+
+  &.bit-title--left {
+    text-align: left
+  }
+
+  &.bit-title--right {
+    text-align: right
+  }
+
+  &.bit-title--center {
+    text-align: center
+  }
+
+  .bit-button {
+    margin-right: 10px;
+  }
+
+  .bit-icon-link {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    background: none;
+    font-size: 26px;
+
+    .icon-navigate_before,
+    .icon-navigate_next {
+      font-size: 34px;
+    }
+
+    &:focus,
+    &:hover {
+      color: $color-primary;
+      background: none;
+    }
+
+    i {
+      width: 36px;
+      height: 36px;
+      line-height: 36px;
+
+      &::before {
+        width: 36px;
+        height: 36px;
+        line-height: 36px;
+      }
+    }
+  }
+
+}

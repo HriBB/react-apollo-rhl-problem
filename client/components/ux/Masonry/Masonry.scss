@@ -1,0 +1,49 @@
+.masonry {
+  width: 100%;
+
+  .masonry__item {
+    position: relative;
+  }
+
+  .masonry__sizer { width: 50%; }
+  .masonry__item { width: 50% }
+  .masonry__item--big { width: 100% }
+
+  @media screen and (min-width: 480px) {
+    .masonry__sizer { width: 33.3333%; }
+    .masonry__item { width: 33.3333%; }
+    .masonry__item--big { width: 66.6666%; }
+  }
+
+  @media screen and (min-width: 768px) {
+    .masonry__sizer { width: 25%; }
+    .masonry__item { width: 25%; }
+    .masonry__item--big { width: 50%; }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .masonry__sizer { width: 20%; }
+    .masonry__item { width: 20%; }
+    .masonry__item--big { width: 40%; }
+  }
+
+  &.masonry--big {
+    .masonry__sizer { width: 100%; }
+    .masonry__item { width: 100% }
+    .masonry__item--big { width: 100% }
+
+    @media screen and (min-width: 480px) {
+      .masonry__sizer { width: 50%; }
+      .masonry__item { width: 50%; }
+      .masonry__item--big { width: 100%; }
+    }
+
+    @media screen and (min-width: 768px) {
+      .masonry__sizer { width: 33.3333%; }
+      .masonry__item { width: 33.3333%; }
+      .masonry__item--big { width: 66.6666%; }
+    }
+
+  }
+
+}

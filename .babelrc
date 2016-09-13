@@ -1,0 +1,16 @@
+{
+  "presets": ["es2015", "stage-0", "react"],
+  "env": {
+    "development": {
+      "plugins": [
+        "react-hot-loader/babel",
+        ["babel-plugin-webpack-alias", { "config": "./webpack/config.dev.js" }]
+      ]
+    },
+    "production": {
+      "plugins": [
+        ["babel-plugin-webpack-alias", { "config": "./webpack/config.prod.js" }]
+      ]
+    }
+  }
+}
